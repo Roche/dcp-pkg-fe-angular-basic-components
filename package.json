@@ -1,6 +1,6 @@
 {
   "name": "angular-basic-components",
-  "version": "17.1.10",
+  "version": "17.1.12",
   "scripts": {
     "ng": "ng",
     "prestart": "npm install",
