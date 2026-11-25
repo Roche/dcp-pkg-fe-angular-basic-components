@@ -1,6 +1,6 @@
 {
   "name": "@open-dcp/angular-basic-components",
-  "version": "17.1.12",
+  "version": "17.1.13",
   "peerDependencies": {
     "@angular/animations": "^17.0.0",
     "@angular/cdk": "^17.3.0",

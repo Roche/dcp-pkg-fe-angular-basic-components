@@ -48,8 +48,8 @@ export enum ActionEnum {
   ],
   template: `
     <div class="odcp-audit-trail-manager p-3">
-      <div class="header p-3">
-        <span class="pl-0">
+      <div class="header ph-3 pt-1">
+        <span class="pl-3 ">
           {{ titleText | translate }}
         </span>
         <div class="action-container">
@@ -145,8 +145,29 @@ export enum ActionEnum {
   `,
   styles: `
     .odcp-audit-trail-manager {
-      .audit-trail-list {
-        margin-top: 40px !important;
+
+      margin-top: 40px !important;
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        white-space: nowrap;
+        width: 90% !important;
+        top: 0 !important;
+      }
+
+      .header > span {
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .header .action-container {
+        display: flex;
+        flex: 0 0 auto;
+        margin-right: 0;
       }
     }
   `
